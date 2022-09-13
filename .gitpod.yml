@@ -1,6 +1,11 @@
+
 image:
   file: .gitpod.Dockerfile
   
 tasks:
   - init: mix compile
     command: iex -S mix
+
+vscode:
+  extensions:
+    - elixir-lsp.elixir-ls
